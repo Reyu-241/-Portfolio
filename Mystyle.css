@@ -3,12 +3,28 @@
 
 body{
     font-family: 'Arial', sans-serif;
-    background-color: #fff6f6;
+    background: linear-gradient(to bottom, #f8eeee, #d3d3d3);
     margin: 0;
     padding: 0;
 
 
 }   
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    header, main, footer {
+        padding: 10px;
+    }
+    header {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
 
 h1{
     background: linear-gradient(to right, #131313, #252424);
