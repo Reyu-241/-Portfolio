@@ -3,12 +3,14 @@
 
 body{
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #f8eeee, #d3d3d3);
+    background: linear-gradient(135deg, #fff6f6 0%, #f7f2ff 50%, #fef9f5 100%);
     margin: 0;
     padding: 0;
+}
 
-
-}   
+#hero .hero-gradient {
+    background: linear-gradient(135deg, #fff6f6 0%, #f7f2ff 50%, #fef9f5 100%);
+}
 
 @media (max-width: 600px) {
     body {
