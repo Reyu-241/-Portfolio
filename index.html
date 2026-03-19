@@ -5,34 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angelo Pensalfine | Developer and Programmer</title>
         <link rel="stylesheet" href="Mystyle.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 <body class="text-gray-800 font-sans">
-    <header class="sticky top-0 z-50 bg-red-500 shadow-md">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-white">Angelo Pensalfine</h1>
-            <nav class="space-x-4">
-                <a href="#hero" class="text-white hover:text-gray-300 transition">Home</a>
-                <a href="#about" class="text-white hover:text-gray-300 transition">About</a>
-                <a href="#skills" class="text-white hover:text-gray-300 transition">Skills</a>
-                <a href="#projects" class="text-white hover:text-gray-300 transition">Projects</a>
-                <a href="#education" class="text-white hover:text-gray-300 transition">Education</a>
-                <a href="#contact" class="text-white hover:text-gray-300 transition">Contact</a>
+    <header class="sticky top-0 z-50 shadow-md" style="background: linear-gradient(to right, #ff2b2b 20%, #5e0000 70%);">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-1">
+                <h1 class="text-2xl font-bold text-white">Angelo Pensalfine</h1>
+                
+            </div>
+            <nav class="nav-link-container">
+                <div class="link-box">
+                    <a href="#hero" class="link-button">Home</a>
+                    <a href="#about" class="link-button">About</a>
+                    <a href="#skills" class="link-button">Skills</a>
+                    <a href="#projects" class="link-button">Projects</a>
+                    <a href="#education" class="link-button">Education</a>
+                    <a href="#contact" class="link-button">Contact</a>
+                    <button id="themeToggle" class="dark-toggle-btn" aria-label="Toggle dark mode">🌙 Dark</button>
+                </div>
             </nav>
         </div>
     </header>
 
 
 <!--hero section-->
-    <section id="hero">
+    <section id="hero" >
     
     <div class="hero-gradient py-20">
         
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold mb-4">Hi, I'm Angelo Pensalfine</h1>
-            <p class="text-xl text-gray-700 mb-8">A passionate developer and programmer.</p>
-            <a href="#contact" class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-500">Contact Me</a>
+        <div class="container mx-auto" >
+            <h1 class="text-4xl font-bold mb-8">Hi, I'm Angelo Pensalfine</h1>
+            <p class="text-xl text-black-800 mb-8" >I am a passionate developer and programmer.</p>
+            <div class="cta-container">
+                <a href="#contact" class="hero-cta">Contact Me</a>
+            </div>
         </div>
     </div>
     </section>
@@ -41,9 +50,9 @@
  <!--about section-->
     <section id="about">
    
-    <div class="container mx-auto py-20">
+    <div class="container mx-auto py-20 justify-center">
         <h2 class="text-3xl font-bold mb-6">About Me</h2>
-        <p class="text-gray-700 mb-4">I am a Student developer and programmer at Unicolleg, studying their AI-Native Full-Stack Developer Programme.</p>
+        <p class="text-gray-700 mb-4">I am a Student developer and programmer at Unicollege, studying their AI-Native Full-Stack Developer Programme.</p>
         <p class="text-gray-700">I have always been passionate about technology and innovation from a young age. computers and technology have always fascinated me.</p>
         <p class="text-gray-700">Ive decided to pursue a career in software development not only because it aligns with my interests but also because the world is moving towards an age of technology advancement.</p>
         <p class="text-gray-700">With in the nex 5 years i see myself as a leading developer in the field. Working in my own business and contributing to the tech community.</p>
@@ -61,7 +70,7 @@
             <div class="bg-gray-200 p-4 rounded">CSS3 / Tailwind CSS</div>
             <div class="bg-gray-200 p-4 rounded">Scratch (CS50 certified)</div>
             <div class="bg-gray-200 p-4 rounded">Git & GitHub</div>
-            <dive class="bg-gray-200 p-4 rounded">Problem solving</div>
+            <div class="bg-gray-200 p-4 rounded">Problem solving</div>
         </div>
     </div>
     </section>
@@ -77,17 +86,17 @@
             <div class="project bg-gray-100 p-4 rounded hover:bg-gray-200 transition">
                 <h3 class="text-xl font-semibold mb-2">Project 1: CS50 Scratch Project</h3>
                 <p class="text-gray-700 mb-2">A CS50 scratch project I have completed.</p>
-                <a href="https://cs50.harvard.edu/x/2023/projects/1/scratch/" class="project-link text-blue-600 hover:text-blue-800 opacity-0 hover:opacity-100 transition-opacity">View Project</a>
+                <a href="https://cs50.harvard.edu/x/2023/projects/1/scratch/" class="project-link btn-link interactive-link">View Project</a>
             </div>
             <div class="project bg-gray-100 p-4 rounded hover:bg-gray-200 transition">
                 <h3 class="text-xl font-semibold mb-2">Project 2: [place holder]</h3>
                 <p class="text-gray-700 mb-2">[place holder description]</p>
-                <a href="#" class="project-link text-blue-600 hover:text-blue-800 opacity-0 hover:opacity-100 transition-opacity">View Project</a>
+                <a href="#" class="project-link btn-link interactive-link">View Project</a>
             </div>
             <div class="project bg-gray-100 p-4 rounded hover:bg-gray-200 transition">
                 <h3 class="text-xl font-semibold mb-2">Project 3: [place holder]</h3>
                 <p class="text-gray-700 mb-2">[place holder description]</p>
-                <a href="#" class="project-link text-blue-600 hover:text-blue-800 opacity-0 hover:opacity-100 transition-opacity">View Project</a>
+                <a href="#" class="project-link btn-link interactive-link">View Project</a>
             </div>
         </div>
     </div>
@@ -127,28 +136,44 @@
         <h2 class="text-3xl font-bold mb-6 text-center">Contact</h2>
         <p class="text-gray-700 text-center font-semibold mb-6">Get in touch with me at:</p>
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a href="mailto:reyu8108@gmail.com" class="block mx-auto mb-12 px-5 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition duration-200 max-w-fit text-center">
-                <h3 class="text-3xl font-bold">reyu8108@gmail.com</h3>
+            <a href="mailto:reyu8108@gmail.com" class="interactive-link block mx-auto mb-12 px-5 py-3 rounded-lg max-w-fit text-center" style="background-color: rgb(204, 204, 204);">
+                <h3 class="text-3xl font-bold" style="color: rgb(0, 0, 0);">reyu8108@gmail.com</h3>
             </a>
-            <form class="bg-white p-8 rounded-lg shadow-md">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <form class="contact-form bg-white p-8 rounded-lg shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
                         <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
-                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        <input type="text" id="name" name="name" class="form-field" required>
                     </div>
                     <div>
                         <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
-                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        <input type="email" id="email" name="email" class="form-field" required>
                     </div>
                 </div>
-                <div class="mb-6">
+                <div class="mb-4">
                     <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
-                    <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                    <textarea id="message" name="message" rows="5" class="form-field" required></textarea>
                 </div>
-                <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded-md font-semibold hover:bg-blue-700 transition duration-300">Send Message</button>
+                <button type="submit" class="contact-submit">Send Message</button>
             </form>
         </div>
     </div>
     </section>
+    <script>
+        const toggle = document.getElementById('themeToggle');
+        toggle?.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const inDark = document.body.classList.contains('dark-mode');
+            toggle.textContent = inDark ? '☀️ Light' : '🌙 Dark';
+            toggle.setAttribute('aria-label', inDark ? 'Switch to light mode' : 'Switch to dark mode');
+        });
+    </script>
+
+    <!-- Footer section -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <p class="text-center">&copy; 2026 Angelo Pensalfine. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
